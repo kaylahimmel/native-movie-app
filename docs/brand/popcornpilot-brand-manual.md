@@ -9,6 +9,10 @@
 
 Files that go with this manual:
 - `assets/popcornpilot-icon.svg`: the app icon, used in both light and dark mode
+- `assets/popcornpilot-lockup-light.svg` and `-dark.svg`: the icon plus wordmark lockup
+- `assets/popcornpilot-wordmark-light.svg` and `-dark.svg`: the wordmark on its own
+
+The wordmark text in these SVGs has been converted to outlines (shapes, not live text), so they display correctly even where Space Grotesk isn't installed. Each one has `role="img"` and `aria-label="PopcornPilot"`.
 - `images/`: the reference images used below
 
 ---
