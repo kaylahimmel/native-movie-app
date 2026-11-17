@@ -277,15 +277,16 @@ Using the same set on iOS and Android keeps the two apps looking alike, the same
 - **Meaning:** use icons people already understand. Phosphor names are shown in code format.
   - Like: `thumbs-up`
   - Dislike: `thumbs-down`
-  - Unseen: `eye-slash`
+  - Unseen: `eye-closed` (a crossed-out eye usually means "hide". Test this one in the UI.)
   - Undo: `arrow-counter-clockwise`
   - Correct and wrong answers: `check` and `x`
 - **Labels:** every icon-only button needs an accessibility label, such as "Like", "Dislike", "Mark as unseen" or "Undo". Tab icons always show a text label too.
 - **Don't** use the popcorn bucket as a UI icon. It's the brand mark, and if it appears everywhere it stops standing out.
+- **The full set:** all 20 icons, in regular and fill, are in [`icons/`](icons/README.md). That folder also has the label for each icon and notes on which ones could be misread.
 - **Tab icons (Phosphor):**
   - Explore: `compass`
   - Swipe: `cards`
-  - Genie: `sparkle`
+  - Genie: `magic-wand`
   - Arcade: `game-controller`
 
 ---
